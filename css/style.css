@@ -1,0 +1,25 @@
+/* This is a comment in CSS */
+
+body {
+    background-color: #FFE;
+}
+
+.coloredheading {
+    color: #887;
+}
+
+a {
+    color: #900;
+}
+
+img {
+    border: 1px solid #000;
+}
+
+/* The goal here is to remove the spacing between the two h4 elements. Unfortuantely I believe the browser styling has not been reset so this is not working */
+
+h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    
